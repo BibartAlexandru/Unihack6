@@ -1,0 +1,10 @@
+.timer {
+}
+
+.timer h5 {
+  color: white;
+  max-width: 5rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

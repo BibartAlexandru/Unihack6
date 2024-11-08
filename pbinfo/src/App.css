@@ -1,0 +1,52 @@
+/*PENTRU CODE MIRROR*/
+.cm-content {
+  text-align: left !important;
+}
+
+.app {
+  padding: var(--padding-normal);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  background-color: var(--bkg-normal);
+  gap: var(--gap-large);
+}
+
+/**/
+.scrollable {
+  overflow: auto;
+  width: 90%;
+}
+
+.scrollable::-webkit-scrollbar-corner {
+  appearance: none;
+}
+
+.extra-row {
+  /* width: 999999px; */
+  /* height: 5rem; */
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  gap: var(--gap-normal);
+  justify-content: center;
+}
+
+#buttons-scrollable {
+}
+
+/**/
+
+/**/
+.normal-btn {
+  /* height: 2rem;
+  width: 4rem; */
+  height: 3rem;
+  min-width: 8rem;
+  font-size: calc(1rem + 0.3vw) !important;
+  font-weight: 500;
+  border-radius: 2rem !important;
+  /* background-color: var(--bkg-secondary) !important; */
+}
+/**/
