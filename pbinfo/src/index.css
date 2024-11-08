@@ -35,3 +35,13 @@
 body {
   min-height: 100vh;
 }
+
+.icon-medium {
+  object-fit: contain;
+  width: 2rem;
+}
+
+.icon-small {
+  object-fit: contain;
+  width: 1.5rem;
+}

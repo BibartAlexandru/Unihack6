@@ -1,5 +1,8 @@
 .problem {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-normal);
 }
 
 .cool-code-editor {
@@ -44,6 +47,7 @@
 }
 .cm-content {
   text-align: left !important;
+  font-size: 1.3rem;
 }
 
 .cm-editor {
@@ -53,4 +57,41 @@
   height: 100%;
 }
 
-/**/
+/*DIFFICULTY BUTTONS*/
+
+.EASY-btn {
+  background-color: rgb(20, 20, 20) !important;
+  border: solid green 0.1rem !important;
+  color: gray !important;
+}
+
+.EASY-btn:hover {
+  color: white !important;
+}
+
+.MEDIUM-btn {
+  background-color: rgb(20, 20, 20) !important;
+  border: solid rgb(239, 131, 23) 0.1rem !important;
+  color: gray !important;
+}
+
+.MEDIUM-btn:hover {
+  color: white !important;
+}
+
+.HARD-btn {
+  background-color: rgb(20, 20, 20) !important;
+  border: solid rgb(239, 23, 23) 0.1rem !important;
+  color: gray !important;
+}
+
+.HARD-btn:hover {
+  color: white !important;
+}
+
+/*PROBLEM STATES*/
+
+.description-state {
+  width: 100%;
+  height: 100%;
+}

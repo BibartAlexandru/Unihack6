@@ -1,12 +1,14 @@
 import React from "react";
 import "./Statement.css";
 import IStatement from "../../interfaces/statement";
+import { IProblemDifficulty } from "../../interfaces/problem-difficulty";
 
 interface Props {
   statement: IStatement;
   inputStatement: string[];
   outputStatement: string[];
   constraintsStatement: string[];
+  difficulty: IProblemDifficulty;
 }
 
 const Statement = ({
@@ -14,13 +16,16 @@ const Statement = ({
   inputStatement,
   outputStatement,
   constraintsStatement,
+  difficulty,
 }: Props) => {
   return (
     <div className="statement">
       <div className="input-block">
         <div className="desc-row">
           <h4>Description</h4>
-          <button className="btn btn-warning normal-btn">Medium</button>
+          <button className={`btn ${IProblemDifficulty[difficulty]}-btn`}>
+            {IProblemDifficulty[difficulty]}
+          </button>
         </div>
         {statement.blocks.map((block, index) => (
           <div key={`statement${index}`} className="text-block">

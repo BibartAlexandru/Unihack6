@@ -1,0 +1,78 @@
+.hint-undocked pre {
+  color: white;
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.25rem;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: normal;
+}
+
+.hint h5 {
+  color: white;
+}
+
+.hint-docked {
+  border: solid 0.1rem white;
+  border-radius: 2rem;
+  padding: var(--padding-normal);
+  background-color: #1f1e1e;
+  height: 5rem;
+  display: flex;
+  gap: var(--gap-normal);
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.hint-undocked {
+  border: solid 0.1rem white;
+  border-radius: 2rem;
+  padding: var(--padding-normal);
+  background-color: #1f1e1e;
+  height: 10rem;
+  display: flex;
+  gap: var(--gap-normal);
+  align-items: start;
+  width: 100%;
+  cursor: pointer;
+}
+
+.hint-docked h5,
+.hint-undocked h5,
+.hint-undocked pre {
+  color: white;
+  margin: 0;
+  line-height: normal;
+}
+
+.problem-hints {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-normal);
+  margin-top: var(--gap-normal);
+}
+
+.points {
+  color: red !important;
+  margin-left: auto !important;
+  position: relative;
+  width: fit-content;
+}
+
+.points-subtracted {
+  color: gray !important;
+  margin-left: auto !important;
+  position: relative;
+  width: fit-content;
+}
+
+.points::before {
+  content: "-";
+  font-size: 1.3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-0.6rem);
+}
