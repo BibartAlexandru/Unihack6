@@ -49,15 +49,24 @@ function App() {
         constraintsStatement={["n > 100"]}
       />
 
-      <CodeMirror
-        value={code}
-        height="300px"
-        theme="dark"
-        lang={"cpp"}
-        width="600px"
-        editable={true}
-        onChange={onCodeChange}
-      ></CodeMirror>
+      <div className="code-section">
+        <div className="cool-code-editor">
+          <CodeMirror
+            value={code}
+            height="100%"
+            theme="dark"
+            lang={"cpp"}
+            width="100%"
+            editable={true}
+            onChange={onCodeChange}
+          ></CodeMirror>
+        </div>
+
+        <div className="end-buttons">
+          <button className="btn btn-success normal-btn">Submit</button>
+          <button className="btn btn-success normal-btn">Run</button>
+        </div>
+      </div>
     </div>
   );
 }

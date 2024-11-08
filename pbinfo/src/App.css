@@ -1,7 +1,20 @@
 /*PENTRU CODE MIRROR*/
+
+.cm-activeLine {
+  /* border-radius: 2rem !important; */
+}
 .cm-content {
   text-align: left !important;
 }
+
+.cm-editor {
+}
+
+.cm-theme-dark {
+  height: 100%;
+}
+
+/**/
 
 .app {
   padding: var(--padding-normal);
@@ -50,3 +63,22 @@
   /* background-color: var(--bkg-secondary) !important; */
 }
 /**/
+
+.cool-code-editor {
+  width: 100%;
+  height: 50rem;
+  border-radius: 1rem !important;
+  overflow: hidden;
+}
+
+.end-buttons {
+  /* width: 100%; */
+  display: flex;
+  justify-content: right;
+  gap: var(--gap-normal);
+  margin: var(--gap-normal) 0;
+}
+
+.code-section {
+  width: 100%;
+}
