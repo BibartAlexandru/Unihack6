@@ -1,21 +1,3 @@
-/*PENTRU CODE MIRROR*/
-
-.cm-activeLine {
-  /* border-radius: 2rem !important; */
-}
-.cm-content {
-  text-align: left !important;
-}
-
-.cm-editor {
-}
-
-.cm-theme-dark {
-  height: 100%;
-}
-
-/**/
-
 .app {
   padding: var(--padding-normal);
   display: flex;
@@ -25,31 +7,6 @@
   background-color: var(--bkg-normal);
   gap: var(--gap-large);
 }
-
-/**/
-.scrollable {
-  overflow: auto;
-  width: 90%;
-}
-
-.scrollable::-webkit-scrollbar-corner {
-  appearance: none;
-}
-
-.extra-row {
-  /* width: 999999px; */
-  /* height: 5rem; */
-  /* background-color: pink; */
-  display: flex;
-  align-items: center;
-  gap: var(--gap-normal);
-  justify-content: center;
-}
-
-#buttons-scrollable {
-}
-
-/**/
 
 /**/
 .normal-btn {
@@ -63,21 +20,6 @@
   /* background-color: var(--bkg-secondary) !important; */
 }
 /**/
-
-.cool-code-editor {
-  width: 100%;
-  height: 50rem;
-  border-radius: 1rem !important;
-  overflow: hidden;
-}
-
-.end-buttons {
-  /* width: 100%; */
-  display: flex;
-  justify-content: right;
-  gap: var(--gap-normal);
-  margin: var(--gap-normal) 0;
-}
 
 .code-section {
   width: 100%;

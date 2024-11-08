@@ -26,3 +26,10 @@
 
 .input-block {
 }
+
+.desc-row {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-normal);
+  padding-bottom: var(--gap-normal);
+}

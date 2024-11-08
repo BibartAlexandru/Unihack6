@@ -18,7 +18,10 @@ const Statement = ({
   return (
     <div className="statement">
       <div className="input-block">
-        <h4>Description</h4>
+        <div className="desc-row">
+          <h4>Description</h4>
+          <button className="btn btn-warning normal-btn">Medium</button>
+        </div>
         {statement.blocks.map((block, index) => (
           <div key={`statement${index}`} className="text-block">
             <h5>{block.text}</h5>

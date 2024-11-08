@@ -1,0 +1,56 @@
+.problem {
+  width: 100%;
+}
+
+.cool-code-editor {
+  width: 100%;
+  height: 50rem;
+  border-radius: 1rem !important;
+  overflow: hidden;
+  margin-top: var(--gap-normal);
+}
+
+.end-buttons {
+  /* width: 100%; */
+  display: flex;
+  justify-content: right;
+  gap: var(--gap-normal);
+  margin: var(--gap-normal) 0;
+}
+
+.extra-row {
+  /* width: 999999px; */
+  /* height: 5rem; */
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  gap: var(--gap-normal);
+  justify-content: center;
+}
+
+.scrollable {
+  overflow: auto;
+  width: 90%;
+}
+
+.scrollable::-webkit-scrollbar-corner {
+  appearance: none;
+}
+
+/*PENTRU CODE MIRROR*/
+
+.cm-activeLine {
+  /* border-radius: 2rem !important; */
+}
+.cm-content {
+  text-align: left !important;
+}
+
+.cm-editor {
+}
+
+.cm-theme-dark {
+  height: 100%;
+}
+
+/**/
